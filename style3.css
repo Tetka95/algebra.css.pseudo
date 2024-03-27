@@ -74,7 +74,7 @@ div.header-line {
     user-select: none;
 }
 
-.tab-container, label:hover {
+.tab-container label:hover {
     background: darkslateblue;
 }
 
