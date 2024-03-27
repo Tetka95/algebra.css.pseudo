@@ -26,9 +26,21 @@ section {
 }
 
 .full-width::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 960px;
+    right: 100%;
     background: red;
 }
 
 .full-width::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 960px;
+    left: 100%;
     background: green;
 }
