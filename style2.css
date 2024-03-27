@@ -1,0 +1,12 @@
+p {
+    background-color: palevioletred;
+    padding: 20px; /*ispuna oko teksta*/
+    border: 2px solid purple;
+    margin: 10px;
+}
+
+label {
+    background-color: pink;
+    padding: 20px;
+    border: 2px solid violet;
+}
