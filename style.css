@@ -15,3 +15,20 @@ section {
     padding: 30px;
     padding-bottom: 60px;
 }
+
+.full-width {
+    position: relative;
+    margin: 0 -30px;
+    padding: .25rem 30px;
+    background: black;
+    color: white;
+    font-size: 1.125rem;
+}
+
+.full-width::before {
+    background: red;
+}
+
+.full-width::after {
+    background: green;
+}
