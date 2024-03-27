@@ -49,3 +49,35 @@ div.header-line {
     left: 100%;
     background: blue;
 }
+
+.content {
+    line-height: 28px;
+}
+
+.tab-container {
+    position: relative;
+    background: blue;
+    width: 120px;
+    height: 100vh;
+    float: left;
+    z-index: 20;
+}
+
+.tab-container, label {
+    position: relative;
+    padding: 10px;
+    border-bottom: 1px solid greenyellow;
+    display: block;
+    font-size: 13px;
+    color: whitesmoke;
+    cursor: pointer;
+    user-select: none;
+}
+
+.tab-container, label:hover {
+    background: darkslateblue;
+}
+
+input[name="tab"] {
+    display: none;
+}
