@@ -1,3 +1,8 @@
+body {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
 .header {
     float: left;
     width: 100%;
@@ -144,7 +149,7 @@ input[name="tab"]:checked+.tab-content {
 }
 
 .container .card:hover .face.face1 {
-    background: #ff0057;
+    background: #6200ff;
     transform: translateY(0);
 }
 
