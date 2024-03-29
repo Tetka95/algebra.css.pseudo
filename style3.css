@@ -144,6 +144,7 @@ input[name="tab"]:checked+.tab-content {
     background: #333;
     display: flex;
     justify-content: center;
+    align-items: center;
     z-index: 1;
     transform: translateY(100px);
 }
